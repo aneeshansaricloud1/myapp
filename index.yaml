@@ -2,8 +2,18 @@ apiVersion: v1
 entries:
   mychart:
   - apiVersion: v2
+    appVersion: 2.1.0
+    created: "2022-04-12T03:25:50.778982698Z"
+    description: test helm  Helm chart for Kubernetes
+    digest: d0aa3e27d9117caa91e49543d48753446c6781bcc118a755a858365b7688122b
+    name: mychart
+    type: application
+    urls:
+    - mychart-0.2.0.tgz
+    version: 0.2.0
+  - apiVersion: v2
     appVersion: 1.0.0
-    created: "2022-04-12T03:20:41.179130299Z"
+    created: "2022-04-12T03:25:50.778781605Z"
     description: test helm  Helm chart for Kubernetes
     digest: d606b642ed19a8fb9c2e2a474099e527524fcccb2d5315ae389e741f9713ffb5
     name: mychart
@@ -11,4 +21,4 @@ entries:
     urls:
     - mychart-0.1.0.tgz
     version: 0.1.0
-generated: "2022-04-12T03:20:41.178647449Z"
+generated: "2022-04-12T03:25:50.778466541Z"
